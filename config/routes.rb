@@ -1,4 +1,12 @@
 FoodieNoShame::Application.routes.draw do
+  resources :recommendations
+
+  resources :restaurants
+
+  resources :addresses
+
+  resources :users
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
